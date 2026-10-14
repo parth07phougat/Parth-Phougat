@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The portfolio of Parth Phougat, a student who values being a good listener.">
+  <title>Parth Phougat | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navigation container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Parth Phougat home">PP<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> STUDENT PORTFOLIO</p>
+          <h1>Hi, I'm <span>Parth<br class="desktop-break"> Phougat</span><span class="period">.</span></h1>
+          <p class="hero-subtitle">Student <span class="divider">|</span> Good listener</p>
+          <p class="hero-intro">I’m Parth Phougat, a student who values listening carefully and learning from others.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="A small introduction to Parth">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-card">
+            <div class="card-topline"><span>MY PORTFOLIO</span><span class="card-mark">✳</span></div>
+            <div class="hero-monogram">P<span>.</span></div>
+            <p>Parth Phougat<br><strong>Student</strong></p>
+            <div class="card-bottomline"><span>GOOD LISTENER</span></div>
+          </div>
+          <span class="visual-note note-top">01 / student</span>
+          <span class="visual-note note-bottom">02 / listener</span>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container section-grid">
+        <div class="section-heading">
+          <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+          <h2>About <span>me</span></h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">I’m Parth Phougat, a student.</p>
+          <p>I value being a good listener and taking the time to understand other people. This portfolio is a place to introduce myself and share my work as I add it.</p>
+          <a class="text-link" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading heading-inline">
+          <div>
+              <p class="eyebrow">02 / A STRENGTH I VALUE</p>
+              <h2>My <span>skill</span></h2>
+            </div>
+            <p class="section-note">One thing I bring to conversations.</p>
+        </div>
+        <div class="skills-list" aria-label="Skills">
+            <div class="skill-item"><span class="skill-number" aria-hidden="true">01</span><span>Good listener</span><span class="skill-arrow" aria-hidden="true">✳</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading heading-inline">
+          <div>
+            <p class="eyebrow">03 / PROJECTS</p>
+              <h2>My <span>projects</span></h2>
+            </div>
+            <p class="section-note">A space for work I choose to share.</p>
+        </div>
+        <div class="project-grid">
+            <article class="project-card">
+              <div class="project-art project-placeholder" aria-hidden="true"><span class="placeholder-mark">+</span><span class="art-index">COMING SOON</span></div>
+              <div class="project-info"><div><p class="project-type">PORTFOLIO NOTE</p><h3>Projects coming soon</h3></div></div>
+              <p class="project-description">I haven’t added any projects yet. I’ll feature work here when I’m ready to share it.</p>
+            </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-content">
+        <p class="eyebrow">04 / CONTACT</p>
+        <h2>Thanks for<br><span>visiting.</span></h2>
+        <p>I haven’t added contact details yet. In the meantime, you can revisit the introduction.</p>
+        <a class="button button-light" href="#home">Back to the introduction <span aria-hidden="true">↑</span></a>
+        <span class="contact-spark" aria-hidden="true">✳</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a class="brand" href="#home">PP<span>.</span></a>
+      <p>Portfolio of Parth Phougat.</p>
+      <a class="back-top" href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a>
+      <p class="copyright">© <span id="current-year">2026</span> Parth Phougat</p>
+    </div>
+  </footer>
+</body>
+</html>
